@@ -1,7 +1,11 @@
 :root {
-  --red: red;
-  --green: green;
-  --blue: blue;
-
-  --text-color: black;
+  color-scheme: light dark;
+  color: white;
+  background-color: black;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: white;
+  }
 }
